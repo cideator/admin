@@ -19,7 +19,7 @@ class Register
         });
 
         /* bind */
-        $app->bind('TMFW\Contracts\Report\ModelFiltration', 'TMFW\Foundation\Containers\ModelFiltration');
+        //$app->bind('CIAdmin\Contracts\Report\ModelFiltration', 'CIAdmin\Foundation\Containers\ModelFiltration');
     }
 
 }

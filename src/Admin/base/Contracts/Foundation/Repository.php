@@ -1,6 +1,6 @@
 <?php
 
-namespace CIAdmin\base\Contracts\Foundation;
+namespace CIAdmin\Contracts\Foundation;
 
 
 interface Repository

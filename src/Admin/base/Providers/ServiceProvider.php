@@ -1,13 +1,13 @@
 <?php
 
-namespace CIAdmin\base\Providers;
+namespace CIAdmin\Providers;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 
 abstract class ServiceProvider extends BaseServiceProvider
 {
 
-    protected $psr = 'TMFW';
+    protected $psr = 'CIAdmin';
 
     protected $events = [];
 

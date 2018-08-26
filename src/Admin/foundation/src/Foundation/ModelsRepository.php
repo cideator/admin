@@ -1,7 +1,7 @@
 <?php
 namespace CIAdmin\Foundation;
 
-use CIAdmin\base\Contracts\Foundation\Repository;
+use CIAdmin\Contracts\Foundation\Repository;
 
 class ModelsRepository implements Repository
 {
@@ -25,6 +25,7 @@ class ModelsRepository implements Repository
 
     public function load($repo)
     {
+        if ($repo == null) return;
         $this->models = $repo;
         foreach ($repo as $alias => $model) {
             $this->register($alias);
@@ -55,7 +56,7 @@ class ModelsRepository implements Repository
         $extracted_name = implode('\\', array_map(function($val){
             return studly_case($val);
         }, explode('.', $model)));
-        return 'TMFW\Foundation\Base\\' . $extracted_name . '\Model';
+        return 'CIAdmin\Foundation\Base\\' . $extracted_name . '\Model';
     }
 
     public function has($model)

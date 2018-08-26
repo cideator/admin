@@ -1,7 +1,7 @@
 <?php
 namespace CIAdmin\Foundation;
 
-use CIAdmin\base\Contracts\Foundation\Repository;
+use CIAdmin\Contracts\Foundation\Repository;
 
 class DependenciesRepository implements Repository
 {
@@ -15,6 +15,7 @@ class DependenciesRepository implements Repository
         /*'Zizaco\Entrust\EntrustServiceProvider',*/
         'Spatie\Permission\PermissionServiceProvider',
         'Ixudra\Curl\CurlServiceProvider',
+        'Riverskies\Laravel\MobileDetect\MobileDetectServiceProvider',
 //        'Barryvdh\TranslationManager\ManagerServiceProvider', //dependency required TMFW/plugin-localizer
     ];
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace CIAdmin\base\Contracts\Foundation\Model;
+namespace CIAdmin\Contracts\Foundation\Model;
 
 
 interface User
