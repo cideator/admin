@@ -20,10 +20,10 @@
         ],
         "psr-4": {
             "CIAdmin\\": "src/Admin",
-            "CIAdmin\\Base": "src/Admin/base",
-            "CIAdmin\\Foundation": "src/Admin/foundation/src/Foundation",
-            "CIAdmin\\Support": "src/Admin/support/src/Support",
-            "CIAdmin\\Template": "src/Admin/template/src/Template"
+            "CIAdmin\\Base\\": "src/Admin/base",
+            "CIAdmin\\Foundation\\": "src/Admin/foundation/src/Foundation",
+            "CIAdmin\\Support\\": "src/Admin/support/src/Support",
+            "CIAdmin\\Template\\": "src/Admin/template/src/Template"
         }
     }
 }
