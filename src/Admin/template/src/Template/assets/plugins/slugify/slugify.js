@@ -1,4 +1,4 @@
-function string_to_slug (str) {
+function slugify (str) {
     str = str.replace(/^\s+|\s+$/g, ''); // trim
     str = str.toLowerCase();
 
