@@ -8,13 +8,13 @@
                 <!-- Logo icon -->
                 <b>
                     <!-- Light Logo icon -->
-                    <span class="light-logo">Todo</span>
+                    <span class="dark-logo text-danger font-weight-bold">Reddy</span>
                 </b>
                 <!--End Logo icon -->
                 <!-- Logo text -->
                 <span>
                     <!-- dark Logo text -->
-                    <span class="light-logo">Mundo</span>
+                    <span class="dark-logo">Flix</span>
                 </span>
             </a>
         </div>
@@ -40,7 +40,7 @@
                 </li>
                 <!-- Page heading -->
                 <li class="nav-item hidden-sm-down">
-                    <span>
+                    <span class="text-dark">
                         @yield('page.title', 'Administration')
                     </span>
                 </li>
@@ -53,7 +53,7 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle waves-effect waves-dark"
                        href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <img src="{{ template_asset('images/icon/staff-w.png') }}"
+                        <img src="{{ template_asset('images/icon/user.png') }}"
                              alt="{{ Auth::user()->name }}" class="profile-pic" />
                     </a>
                     <div class="dropdown-menu dropdown-menu-right animated flipInY">
@@ -61,7 +61,7 @@
                             <li>
                                 <div class="dw-user-box">
                                     <div class="u-img">
-                                        <img src="{{ template_asset('images/icon/staff.png') }}"
+                                        <img src="{{ template_asset('images/icon/user.png') }}"
                                              alt="{{ Auth::user()->name }}">
                                     </div>
                                     <div class="u-text">

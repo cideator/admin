@@ -44,7 +44,7 @@
     </div>
 </div>
 <section id="wrapper">
-    <div class="login-register" style="background-image:url(http://bryantarchway.com/wp-content/uploads/2017/12/accounting_background-2.jpg);">
+    <div class="login-register" style="background-image:url(@yield('project.login.background.image', 'https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/YqGSkmb/futuristic-technology-abstract-background_4k3v6uqwg__F0000.png'));">
         <div class="login-box card">
             <div class="card-body">
 

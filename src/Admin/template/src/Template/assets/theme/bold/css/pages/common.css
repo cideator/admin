@@ -51,6 +51,7 @@ File: scss
 
 .container-fluid {
   padding: 25px 25px;
+  padding-top: 0px;
 }
 
 .card {
@@ -73,8 +74,6 @@ File: scss
 .fix-header .topbar {
   position: fixed;
   width: 100%;
-  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
 }
 
 .fix-header .page-wrapper {
