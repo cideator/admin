@@ -41,11 +41,11 @@
 <script>
     $(document).ready(function () {
 
-        /*$('input:not(".iCheckOff"):not("[data-field]")').iCheck({
+        $('input:not(".iCheckOff"):not("[data-field]")').iCheck({
             checkboxClass: 'icheckbox_flat-blue',
             radioClass: 'iradio_flat-blue',
             increaseArea: '-20%'
-        });*/
+        });
 
         /*$.extend($.fn.bootstrapTable.defaults, $.fn.bootstrapTable.locales['es-MX']);*/
 
@@ -63,10 +63,6 @@
         /* Sticky */
         $('.sticky-ele').stick_in_parent();
 
-        /* Editor */
-        $('.form-editor').summernote({
-            height: 350
-        });
     });
 
     /* Unsaved Alert */
